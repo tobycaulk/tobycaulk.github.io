@@ -1,0 +1,116 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+.card-header {
+	padding-left: 2%;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+.card-text-start {
+	padding-top: 10%;
+}
+
+.card-text {
+	padding-left: 2%;
+	font-size: 250%;
+	text-align: center;
+}
+
+.card {
+	height: 100vh;
+}
+
+#card-one:before {
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100vh;
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	-webkit-filter: blur(5px);
+  	-moz-filter: blur(5px);
+  	-o-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	filter: blur(5px);
+  	transform: scale(1.05);
+	background-color: black;
+	z-index: -1;
+}
+
+#card-one {
+	color: white;
+	z-index: 0;
+}
+
+#card-two {
+	background-color: #0D0D0D;
+	color: #ED305D;
+}
+
+#card-two a {
+	color: #ED305D;
+	text-decoration: underline;
+}
+
+#card-two-hr {
+   border: 3px solid #ED305D;
+   width: 50px;
+}
+
+#card-three {
+	background-color: #0D0D0D;
+	color: #6369D1;
+}
+
+#card-three a {
+	color: #6369D1;
+	text-decoration: underline;
+}
+
+#card-three-hr {
+   border: 3px solid #6369D1;
+   width: 50px;
+}
+
+#card-four {
+	background-color: #0D0D0D;
+	color: #F25F5C;
+}
+
+#card-four a {
+	color: #F25F5C;
+	text-decoration: underline;
+}
+
+#card-four-hr {
+   border: 3px solid #F25F5C;
+   width: 50px;
+}
+
+#card-five {
+	background-color: #0D0D0D;
+	color: #6369D1;
+}
+
+#card-five a {
+	color: #6369D1;
+	text-decoration: underline;
+}
+
+#card-five-hr {
+   border: 3px solid #6369D1;
+   width: 50px;
+}
