@@ -1,12 +1,11 @@
 body {
-    background-image:url('../images/background2.JPG');
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
-
+    background-image: url('../images/background2.JPG');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
     background-color: black;
 }
 
@@ -38,12 +37,12 @@ body {
     font-family: 'Raleway', sans-serif;
     color: red;
     font-size: 500%;
-    text-shadow: 8px 4px 6px #000;
+    text-shadow: 8px 4px 8px black;
     letter-spacing: 8px;
     position: relative;
-    -webkit-transform: translateY(150%);
-    -ms-transform: translateY(150%);
-    transform: translateY(150%);
+    -webkit-transform: translateY(170%);
+    -ms-transform: translateY(170%);
+    transform: translateY(170%);
 }
 
 @media screen and (max-width: 606px) {
@@ -69,4 +68,15 @@ body {
     color: red;
     font-size: 40%;
     letter-spacing: normal;
+}
+
+.panel {
+    margin-top: 20%;
+    padding: 30px;
+    background-color: black;
+}
+
+.panel p {
+    color: white;
+    font-size: 150%;
 }
