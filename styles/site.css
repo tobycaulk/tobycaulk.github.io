@@ -6,6 +6,8 @@ body {
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
+
+    background-color: black;
 }
 
 .navbar {
