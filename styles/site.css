@@ -106,6 +106,7 @@ body {
 }
 
 .panel {
+    border-radius: 10px;
     min-height: 400px;
     margin-top: 20%;
     padding: 30px;
@@ -127,4 +128,8 @@ body {
 
 .bracket {
     color: red;
+}
+
+.round-image {
+    border-radius: 50%;
 }
