@@ -10,10 +10,20 @@ body {
     background-color: black;
 }
 
-.navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+@media screen and (min-width: 768px) {
+    .navbar {
+        background-color: transparent;
+        background: transparent;
+        border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        background-color: #111111;
+        background: #111111;
+        border-color: #111111;
+    }
 }
 
 .navbar li { 
