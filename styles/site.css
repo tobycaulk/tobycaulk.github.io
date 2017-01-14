@@ -133,3 +133,8 @@ body {
 .round-image {
     border-radius: 50%;
 }
+
+.track-text {
+    color: black !important;
+    font-size: 100% !important;
+}
