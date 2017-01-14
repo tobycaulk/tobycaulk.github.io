@@ -28,6 +28,19 @@ body {
     font-size: 500%;
     text-shadow: 8px 4px 6px #000;
     letter-spacing: 8px;
+    position: relative;
+    -webkit-transform: translateY(150%);
+    -ms-transform: translateY(150%);
+    transform: translateY(150%);
+}
+
+@media screen and (max-width: 606px) {
+    #home-band-name { 
+        position: relative;
+        -webkit-transform: translateY(80%);
+        -ms-transform: translateY(80%);
+        transform: translateY(80%);
+    }
 }
 
 #home-band-name-highlight {
