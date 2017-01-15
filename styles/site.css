@@ -7,6 +7,9 @@ body {
     background-size: cover;
     background-position: center;
     background-color: black;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-attachment: fixed;
 
     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
