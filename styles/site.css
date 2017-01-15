@@ -1,3 +1,9 @@
+@font-face {
+    font-family: SteelWorks;
+    src: url('../fonts/steelworks.ttf');
+    font-weight:400;
+}
+
 body {
     background-image: url('../images/background2.JPG');
     background-repeat: no-repeat;
@@ -80,15 +86,14 @@ body {
 }
 
 #home-band-name {
-    font-family: 'Raleway', sans-serif;
-    color: red;
-    font-size: 500%;
+    font-family: SteelWorks, 'Raleway', sans-serif;
+    font-size: 700%;
     text-shadow: 8px 4px 8px black;
     letter-spacing: 8px;
     position: relative;
-    -webkit-transform: translateY(170%);
-    -ms-transform: translateY(170%);
-    transform: translateY(170%);
+    -webkit-transform: translateY(60%);
+    -ms-transform: translateY(60%);
+    transform: translateY(60%);
 }
 
 @media screen and (max-width: 606px) {
@@ -104,15 +109,8 @@ body {
     color: white;
 }
 
-#home-band-message-highlight {
-    color: white;
-    font-size: 40%;
-    letter-spacing: normal;
-}
-
 .home-band-message-bracket {
     color: red;
-    font-size: 40%;
     letter-spacing: normal;
 }
 
@@ -144,7 +142,7 @@ body {
 }
 
 .panel-news-card {
-    background-color: #111111;
+    background-color: #2E2E2E;
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 10px;
