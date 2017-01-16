@@ -69,7 +69,7 @@ body {
 } 
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: dodgerblue;
+    color: #1E90FF;
 }
 
 .navbar-brand {
@@ -157,5 +157,5 @@ body {
 }
 
 .highlight {
-    color: dodgerblue;
+    color:#1E90FF;
 }
