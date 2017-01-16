@@ -101,11 +101,6 @@ body {
     color: white;
 }
 
-.home-band-message-bracket {
-    color: red;
-    letter-spacing: normal;
-}
-
 .panel {
     border-radius: 10px;
     min-height: 400px;
@@ -152,14 +147,6 @@ body {
     color: white;
 }
 
-.panel-news-card-header {
-    color: red;
-}
-
-.bracket {
-    color: red;
-}
-
 .round-image {
     border-radius: 50%;
 }
@@ -167,4 +154,8 @@ body {
 .track-text {
     color: black !important;
     font-size: 100% !important;
+}
+
+.highlight {
+    color: dodgerblue;
 }
