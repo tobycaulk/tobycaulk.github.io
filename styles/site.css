@@ -7,15 +7,16 @@
 
 body {
     background-color: black;
-
-    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 0.5s; /* Firefox < 16 */
-    -ms-animation: fadein 0.5s; /* Internet Explorer */
-    -o-animation: fadein 0.5s; /* Opera < 12.1 */
-    animation: fadein 0.5s;
-
     padding: 0;
     margin: 0;
+}
+
+.content {
+    -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.75s; /* Firefox < 16 */
+    -ms-animation: fadein 0.75s; /* Internet Explorer */
+    -o-animation: fadein 0.75s; /* Opera < 12.1 */
+    animation: fadein 0.75s;
 }
 
 #background-vid {
@@ -147,8 +148,19 @@ body {
     color: white;
 }
 
-.round-image {
-    border-radius: 50%;
+.panel-show-card {
+    background-color: #2E2E2E;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.panel-show-card hr {
+    color: white;
+}
+
+.panel-show-card p {
+    color: white;
 }
 
 .track-text {
