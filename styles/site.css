@@ -116,7 +116,7 @@ body {
 
 @media screen and (max-width: 991px) {
     .panel-news { 
-        margin-top: 80vh
+        margin-top: 110%;
     }
 }
 
