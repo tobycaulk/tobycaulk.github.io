@@ -114,12 +114,6 @@ body {
     margin-top: 85vh;
 }
 
-@media screen and (max-width: 991px) {
-    .panel-news { 
-        margin-top: 110%;
-    }
-}
-
 .panel p {
     color: white;
     font-size: 150%;
