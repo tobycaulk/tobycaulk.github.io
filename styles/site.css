@@ -148,11 +148,6 @@ body {
     color: white;
 }
 
-.track-text {
-    color: black !important;
-    font-size: 100% !important;
-}
-
 .highlight {
     color:#1E90FF;
 }
@@ -161,4 +156,13 @@ body {
     border: 3px solid #1E90FF;
     width: 200px;
     height: 200px;
+}
+
+.thumbnail {
+    background-color: black;
+    border-color: #1E90FF;
+}
+
+.thumbnail h3 {
+    color: white;
 }
